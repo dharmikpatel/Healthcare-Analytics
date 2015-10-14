@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.2.10
+3 info using node@v0.8.19
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\purval\ESTWorkspace\HealthAuguryLocal\package.json
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\Users\\purval\\ESTWorkspace\\HealthAuguryLocal',
+7 verbose install   [ 'express', 'jade' ] ]
+8 verbose from cache C:\Users\purval\ESTWorkspace\HealthAuguryLocal\package.json
+9 info preinstall HealthAuguryLocal@0.0.1
+10 verbose from cache C:\Users\purval\ESTWorkspace\HealthAuguryLocal\package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'express@3.2.6', null ]
+13 verbose cache add name=undefined spec="express@3.2.6" args=["express@3.2.6",null]
+14 verbose parsed url { pathname: 'express@3.2.6',
+14 verbose parsed url   path: 'express@3.2.6',
+14 verbose parsed url   href: 'express@3.2.6' }
+15 verbose cache add name="express" spec="3.2.6" args=["express","3.2.6"]
+16 verbose parsed url { pathname: '3.2.6', path: '3.2.6', href: '3.2.6' }
+17 verbose addNamed [ 'express', '3.2.6' ]
+18 verbose addNamed [ '3.2.6', '3.2.6' ]
+19 verbose cache add [ 'jade@*', null ]
+20 verbose cache add name=undefined spec="jade@*" args=["jade@*",null]
+21 verbose parsed url { pathname: 'jade@*', path: 'jade@*', href: 'jade@*' }
+22 verbose cache add name="jade" spec="*" args=["jade","*"]
+23 verbose parsed url { pathname: '*', path: '*', href: '*' }
+24 verbose addNamed [ 'jade', '*' ]
+25 verbose addNamed [ null, '' ]
+26 silly lockFile ad03ed78-jade jade@*
+27 verbose lock jade@* C:\Users\purval\AppData\Roaming\npm-cache\ad03ed78-jade.lock
+28 silly lockFile fdae4232-express-3-2-6 express@3.2.6
+29 verbose lock express@3.2.6 C:\Users\purval\AppData\Roaming\npm-cache\fdae4232-express-3-2-6.lock
+30 silly addNameRange { name: 'jade', range: '', hasData: false }
+31 verbose url raw jade
+32 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+33 verbose url resolved https://registry.npmjs.org/jade
+34 info trying registry request attempt 1 at 08:50:06
+35 http GET https://registry.npmjs.org/jade
+36 verbose url raw express/3.2.6
+37 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.2.6' ]
+38 verbose url resolved https://registry.npmjs.org/express/3.2.6
+39 info trying registry request attempt 1 at 08:50:07
+40 http GET https://registry.npmjs.org/express/3.2.6
+41 error Error: write EPIPE
+41 error     at errnoException (net.js:770:11)
+41 error     at Object.afterWrite (net.js:594:19)
+42 error If you need help, you may report this log at:
+42 error     <http://github.com/isaacs/npm/issues>
+42 error or email it to:
+42 error     <npm-@googlegroups.com>
+43 error System Windows_NT 6.1.7601
+44 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+45 error cwd C:\Users\purval\ESTWorkspace\HealthAuguryLocal
+46 error node -v v0.8.19
+47 error npm -v 1.2.10
+48 error syscall write
+49 error code EPIPE
+50 error errno EPIPE
+51 verbose exit [ 1, true ]
